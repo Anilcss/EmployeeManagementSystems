@@ -1,8 +1,9 @@
 
 
-<div>
-<section id="menu" *ngFor="let name of menuname">{{name}}
-
+<div id="container">
+    
+<section id="menu" *ngFor="let name of menuname" > 
+<mat-icon  *ngFor="let icon of iconname">{{icon}}</mat-icon>{{name}}
+    
 </section>
-
 </div>

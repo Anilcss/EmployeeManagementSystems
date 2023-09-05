@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class SidemenuComponent {
 
-menuname: Array<string>=['Home','About Us','Employee Management'];
+menuname: Array<string>=['Home','About Us','Employee Management System','Contact Us','Help'];
+
+iconname:Array<string>=['home','contact','help'];
 
 
 }
