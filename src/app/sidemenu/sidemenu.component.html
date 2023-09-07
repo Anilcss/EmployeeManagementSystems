@@ -3,7 +3,15 @@
 <div id="container">
     
 <section id="menu" *ngFor="let name of menuname" > 
-<mat-icon  *ngFor="let icon of iconname">{{icon}}</mat-icon>{{name}}
+
+<mat-icon *ngIf="name=='Home'">home</mat-icon>
+<mat-icon *ngIf="name=='About Us'">info</mat-icon>
+<mat-icon *ngIf="name=='Employee Management System'">people</mat-icon>
+<mat-icon *ngIf="name=='Contact Us'">contacts</mat-icon>
+<mat-icon *ngIf="name=='Help'">help</mat-icon>
+
+
+{{name}}
     
 </section>
 </div>

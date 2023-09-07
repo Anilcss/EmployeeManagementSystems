@@ -5,9 +5,10 @@
 
 #menu:hover
 {
-    background-color:aqua;
+    background-color:rgba(165, 142, 57, 0.666);
     color: black;
     cursor: pointer;
+    
 }
 
 #container
